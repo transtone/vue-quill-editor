@@ -72,7 +72,7 @@
       // Init Quill instance
       initialize() {
         if (this.$el) {
-          let icons = Quill.import("ui/icons")
+          var icons = Quill.import("ui/icons")
           icons["bold"] = '<i class="ql-bold"></i>'
           icons["italic"] = '<i class="ql-italic"></i>'
           icons["underline"] = '<i class="ql-underline"></i>'
